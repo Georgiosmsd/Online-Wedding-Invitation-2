@@ -1,0 +1,79 @@
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.hero-slide-4 .hero-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-slide-active {
+  opacity: 1;
+  z-index: 1;
+}
+
+@media (min-width: 350px) and (max-width: 399px) {
+  .hero-slide-1 {
+    background-position: 45% 40%;
+  }
+
+  .hero-slide-2 {
+    background-position: 40% 40%;
+  }
+
+  .hero-slide-3 {
+    background-position: 42% 40%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
+  .hero-slide-1 {
+    background-position: 45% 40%;
+  }
+
+  .hero-slide-2 {
+    background-position: 40% 40%;
+  }
+
+  .hero-slide-3 {
+    background-position: 42% 40%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 900px) {
+  .hero-slide-1 {
+    background-position: 30% 40%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .hero-slide-1 {
+    background-position: 30% 40%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .hero-slide-1 {
+    background-position: 30% 40%;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 2559px) {
+  .hero-slide-1 {
+    background-position: 30% 40%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .hero-slide-1 {
+    background-position: 30% 40%;
+  }
+}

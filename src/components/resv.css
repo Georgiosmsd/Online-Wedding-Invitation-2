@@ -1,0 +1,225 @@
+.reservation-card {
+  max-width: 600px;
+  margin: 20px auto;
+  background-image: url(../assets/tables.jpg);
+  background-repeat: no-repeat;
+  background-size: 900px 1400px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  align-items: center;
+}
+
+.reservation-title {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #181818;
+  font-family: myFirstFont;
+}
+
+.reservation-subtitle1 {
+  font-size: 1.3em;
+  text-align: center;
+  color: #161616;
+  margin-bottom: 15px;
+  font-family: myFirstFont;
+}
+
+.reservation-subtitle2 {
+  font-size: 1.3em;
+  text-align: center;
+  color: #161616;
+  margin-bottom: 30px;
+  font-family: myFirstFont;
+}
+
+.reservation-form {
+  margin-top: -5px;
+}
+
+.reservation-form .form-group {
+  margin-bottom: 20px;
+}
+
+.reservation-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #000000;
+  font-family: myFirstFont;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  transition: border 0.2s;
+}
+
+.reservation-form input:focus,
+.reservation-form textarea:focus {
+  border-color: #999;
+  outline: none;
+}
+
+/* dropdowns */
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #000000;
+  font-family: myFirstFont;
+}
+
+.dropdown-container select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  transition: border 0.2s;
+}
+
+.dropdown-container select:focus {
+  border-color: #999;
+  outline: none;
+}
+
+/* buttons */
+.custom-button4 {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  background-color: #f7e6ca;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: myFirstFont;
+}
+
+.custom-button4:hover {
+  background-color: #e0f2f1;
+}
+
+.custom-button4.secondary {
+  background-color: #f7e6ca;
+  color: #000000;
+  border: 1px solid #f7e6ca;
+}
+
+.custom-button4.secondary:hover {
+  background-color: #e0f2f1;
+}
+
+.custom-button4:disabled {
+  opacity: 0;
+  cursor: not-allowed;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+/* media */
+@media (max-width: 950px) {
+  .reservation-card {
+    border-radius: 0px;
+    background-size: 900px 2500px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .reservation-card {
+    margin: 0px auto;
+    background-size: 900px 3000px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .reservation-card {
+    background-size: 900px 3000px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 2559px) {
+  .reservation-card {
+    background-size: 900px 3000px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 2560px) {
+  .reservation-card {
+    background-size: 900px 3000px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 399px) {
+  .form-group label,
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .reservation-card {
+    padding: 1rem;
+  }
+  .form-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
+  .form-group label,
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .reservation-card {
+    padding: 1rem;
+  }
+  .form-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .reservation-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 1.2rem;
+  }
+}

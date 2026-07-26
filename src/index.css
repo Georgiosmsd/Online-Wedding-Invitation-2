@@ -1,0 +1,29 @@
+/* font families */
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/miamanueva.ttf);
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(./assets/GFSDidot-Regular.ttf);
+}
+
+@font-face {
+  font-family: SecondFont;
+  src: url(./assets/miama.otf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

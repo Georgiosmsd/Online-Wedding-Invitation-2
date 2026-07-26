@@ -1,0 +1,161 @@
+/* calendar */
+.calendar {
+  margin: 0 auto;
+  width: 400px;
+  height: 500px;
+  background-color: #ece7f3;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.calendar__title {
+  position: relative;
+  height: 100px;
+  padding: 20px;
+  color: #3a5a6a;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.calendar__title h1 {
+  text-align: center;
+  font-family: myFirstFont;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.calendar__title h2 {
+  text-align: center;
+  font-family: myFirstFont;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.calendar__date {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.calendar__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #3a5a6a;
+}
+
+.calendar__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #3a5a6a;
+}
+
+.calendar__number--current,
+.calendar__number:hover {
+  background-color: #f73b3b;
+  color: #000000;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  clip-path: path(
+    "M 15 30 C 5 20, 0 12, 7 7 C 10 5, 15 10, 15 10 C 15 10, 20 5, 23 7 C 30 12, 25 20, 15 30 Z"
+  );
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 350px) and (max-width: 399px) {
+  .calendar {
+    width: 370px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 425px;
+    order: 4;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .calendar {
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 415px;
+    order: 4;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .calendar {
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 410px;
+    order: 4;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .calendar {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 450px;
+  }
+
+  .calendar__title h1,
+  .calendar__title h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .calendar {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 450px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 2559px) {
+  .calendar {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 450px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .calendar {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    height: 450px;
+  }
+
+  .calendar__title h2 {
+    font-size: 2.5rem;
+  }
+
+  .calendar__title h1 {
+    font-size: 2rem;
+  }
+
+  .calendar__day {
+    font-size: 20px;
+  }
+}
