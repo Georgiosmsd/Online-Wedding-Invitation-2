@@ -1,0 +1,206 @@
+{
+  "title_names": {
+    "el": "ΣΑΜΟΥΗΛ & ΕΛΙΣΑΒΕΤ",
+    "en": "SAMOUIL & ELISAVET"
+  },
+  "congratulations": {
+    "el": "Συγχαρητήρια!",
+    "en": "Congratulations!"
+  },
+  "thanks1": {
+    "el": "Με πολύ χαρά σας καλωσορίζουμε και σας προσκαλούμε να μοιραστούμε μαζί σας την μεγάλη μας στιγμή, την τελετή του Γάμου μας.",
+    "en": "With great joy, we welcome you and invite you to share our big moment, our wedding ceremony."
+  },
+  "thanks2": {
+    "el": "Σε αυτόν τον ψηφιακό χώρο που δημιουργήσαμε με αγάπη, θα βρείτε όλες τις απαραίτητες πληροφορίες σχετικά με το πρόγραμμα του Γάμου όπως επίσης και την φόρμα εγγραφής των προσκεκλημένων.",
+    "en": "In this digital space we created with love, you will find all the necessary information about the wedding schedule as well as the guest registration form."
+  },
+  "wedding_date_title": {
+    "el": "Ημερομηνία του Γάμου",
+    "en": "Wedding Date"
+  },
+  "wedding_date": {
+    "el": "18 Σεπτέμβρίου 2027",
+    "en": "18 September 2027"
+  },
+  "date1": {
+    "el": "Δ",
+    "en": "M"
+  },
+  "date2": {
+    "el": "Τ",
+    "en": "T"
+  },
+  "date3": {
+    "el": "Τ",
+    "en": "W"
+  },
+  "date4": {
+    "el": "Π",
+    "en": "T"
+  },
+  "date5": {
+    "el": "Π",
+    "en": "F"
+  },
+  "date6": {
+    "el": "Σ",
+    "en": "S"
+  },
+  "date7": {
+    "el": "Κ",
+    "en": "S"
+  },
+  "timeline_title": {
+    "el": "Πρόγραμμα Γάμου",
+    "en": "Wedding Program"
+  },
+  "ceremony": {
+    "el": "Τελετή Γάμου",
+    "en": "Wedding Ceremony"
+  },
+  "ceremony_location": {
+    "el": "Στον Ιερό Ναό Μεταμορφώσεως στο Ελευθέριο Κορδελιό.",
+    "en": "At the Holy Church of Metamorfoseos at Eleftherio Kordelio"
+  },
+  "party": {
+    "el": "Tο γλέντι",
+    "en": "The celebration"
+  },
+  "party_location": {
+    "el": "Στην Αίθουσα Δεξιώσεων Κλεοπάτρα, Λαγκαδάς.",
+    "en": "At Cleopatra Reception Hall, Langadas."
+  },
+  "where_are_we_going": {
+    "el": "Πού ακριβώς?",
+    "en": "Where exacly?"
+  },
+  "church": {
+    "el": "Η Εκκλησία",
+    "en": "The Church"
+  },
+  "venue": {
+    "el": "Tο Κέντρο",
+    "en": "The Venue"
+  },
+  "directions": {
+    "el": "Οδηγίες",
+    "en": "Directions"
+  },
+  "will_you_come": {
+    "el": "Θα έρθετε?",
+    "en": "Will you come?"
+  },
+  "register_guests": {
+    "el": "Κάντε εγγραφή στην λίστα των καλεσμένων μέσω της παρακάτω φόρμας",
+    "en": "Register on the guest list using the form below"
+  },
+  "reservation": {
+    "el": "Κράτηση",
+    "en": "Reservation"
+  },
+  "gift_info": {
+    "el": "Αν σκέφτεστε να μας τιμήσετε με ένα δώρο, μπορείτε να προσφέρετε στον παρακάτω τραπεζικό λογαριασμό💳.",
+    "en": "If you wish to honor us with a gift, you can make a contribution to the bank account below💳."
+  },
+  "contact": {
+    "el": "Επικοινωνία",
+    "en": "Contact"
+  },
+  "groomName": {
+    "el": "Σαμουήλ",
+    "en": "Samouil"
+  },
+  "brideName": {
+    "el": "Ελισάβετ",
+    "en": "Elisavet"
+  },
+  "fill_form": {
+    "el": "Παρακαλούμε συμπληρώστε την παρακάτω φόρμα κράτησης.",
+    "en": "Please fill out the reservation form below."
+  },
+  "happy_to_see_you": {
+    "el": "Θα χαρούμε πολύ να σας δούμε όλους!",
+    "en": "We’ll be very happy to see you all!"
+  },
+  "first_name": {
+    "el": "Ονομα",
+    "en": "First name"
+  },
+  "last_name": {
+    "el": "Eπώνυμο",
+    "en": "Last name"
+  },
+  "contact_phone": {
+    "el": "Τηλέφωνο επικοινωνίας",
+    "en": "Contact phone"
+  },
+  "contact_email": {
+    "el": "Email επικοινωνίας",
+    "en": "Contact email"
+  },
+  "will_you_attend": {
+    "el": "Θα έρθετε;",
+    "en": "Will you come?"
+  },
+  "of_course": {
+    "el": "Εννοείται!",
+    "en": "Of course!"
+  },
+  "cannot": {
+    "el": "Δυστυχώς δεν μπορούμε",
+    "en": "Unfortunately we cannot"
+  },
+  "adults": {
+    "el": "Ενήλικες",
+    "en": "Adults"
+  },
+  "children": {
+    "el": "Παιδιά",
+    "en": "Children"
+  },
+  "comment_label": {
+    "el": "Αν θέλετε να αφήσετε κάποιο σχόλιο, μπορείτε να το αναφέρεται παρακάτω",
+    "en": "If you’d like to leave a comment, you can mention it below"
+  },
+  "guest_names": {
+    "el": "Oνομα επισκέπτων (Ενήλικες)",
+    "en": "Guest names (Adults)"
+  },
+  "name": {
+    "el": "Όνομα",
+    "en": "Name"
+  },
+  "surname": {
+    "el": "Επώνυμο",
+    "en": "Surname"
+  },
+  "add_guest": {
+    "el": "+ Προσθήκη Καλεσμένου",
+    "en": "+ Add Guest"
+  },
+  "reservation_success": {
+    "el": "Η κράτησή σας καταχωρήθηκε επιτυχώς! Ευχαριστούμε!",
+    "en": "Your reservation was successfully submitted! Thank you!"
+  },
+  "confirm": {
+    "el": "Επιβεβαίωση",
+    "en": "Confirm"
+  },
+  "back": {
+    "el": "Επιστροφή",
+    "en": "Back"
+  },
+  "submission_error": {
+    "el": "Υπήρξε ένα πρόβλημα με την υποβολή. Παρακαλώ δοκιμάστε ξανά.",
+    "en": "There was a problem submitting. Please try again."
+  },
+  "choice": {
+    "el": "Επιλογή",
+    "en": "choice"
+  },
+  "bankinfo": {
+    "el": "Πληροφορίες Τράπεζας",
+    "en": "Bank Information"
+  }
+}
